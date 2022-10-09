@@ -21,7 +21,7 @@ namespace pluralsight_concourse_dotnetcore.Controllers
         [HttpGet("{id}")]
         public ActionResult<string> Get(int id)
         {
-            return "pluralsight";
+            return "pluralsight-fork";
         }
 
         // GET api/values/5/status
@@ -31,12 +31,12 @@ namespace pluralsight_concourse_dotnetcore.Controllers
             if(id > 0 && id <= 10) {
             return "closed";
             }
-            else { 
+            else {
                 return "open";
             }
         }
 
-        
+
 
     }
 }

@@ -13,8 +13,8 @@ namespace unittests {
 
         [Fact]
         public void Test1(){
-            
-            Assert.Equal("pluralsight", _vc.Get(2).Value);
+
+            Assert.Equal("pluralsight-fork", _vc.Get(2).Value);
         }
 
         [Theory]
